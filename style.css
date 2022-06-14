@@ -1,0 +1,159 @@
+html, body {
+  width: 100vw;
+  margin: 0;
+  /* float: left; */
+  font-family: 'Titillium Web', serif;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin-top: 3vh;
+  display: flex;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3vh;
+}
+
+.intro {
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3vh;
+}
+
+#topic {
+  width: 70%;
+}
+
+.mapArea {
+  /* border: 2px solid orange; */
+  margin-bottom: 3vh;
+  width: 80%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  height: 96vh;
+  index: 1;
+}
+
+.control_holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 1vh;
+  index: 9999;
+}
+
+.controler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-right: 1vw;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 24px;
+  index: 9999;
+}
+
+#con1 {
+  background: #fdd100;
+}
+
+#con2 {
+  background: #ccc;
+}
+
+#con3 {
+  background: #ccc;
+}
+
+.count_card {
+  /* border: 2px solid red; */
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.maps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  /* border: 2px solid green; */
+  margin-bottom: 3vh;
+  margin-top: -8vh;
+  /* height: 100vh; */
+  width: 100%;
+  position: absolute;
+}
+
+#county-count {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#map1 {
+  /* background-color: blue; */
+  visibility: visible;
+  /* margin-top: 1vh; */
+}
+
+/* #map2 {
+  background-color: yellow;
+  visibility: hidden;
+}
+
+#map3 {
+  background-color: #fdd100;
+  visibility: hidden;
+} */
+.takeaway {
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3vh;
+  margin-top: 100vh;
+}
+
+#div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  height: 10vh;
+  width: 70vw;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #999;
+  padding: 10px;
+  pointer-events: 'none';
+  background-color: #fdd100;
+  position: absolute;
+  index: 99999;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#test {
+  index: 999;
+  width: 90%;
+  background-color: #fff;
+}
